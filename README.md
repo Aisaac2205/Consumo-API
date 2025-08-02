@@ -63,7 +63,7 @@ Consumo-API/
 Isaac Flores  
 Agosto 2025  
 Proyecto educativo.  
-[LinkedIn](https://www.linkedin.com/in/tu-usuario) | [GitHub](https://github.com/Aisaac2205)
+[GitHub](https://github.com/Aisaac2205)
 
 ## 📄 Licencia
 
