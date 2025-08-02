@@ -49,7 +49,7 @@ Consumo-API/
 
 ## 📱 Vista previa
 
-![Demo Shazam Top Tracks](https://i.imgur.com/tu-demo.png)
+![Demo Shazam Top Tracks](./demo.png)
 
 ## 📝 Detalles técnicos
 
