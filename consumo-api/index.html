@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shazam Top Tracks</title>
+  <link rel="stylesheet" href="./public/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body class="bg-light">
+  <header class="bg-dark text-white text-center py-4">
+    <h1><i class="bi bi-headphones"></i> Shazam Top Tracks</h1>
+    <p class="lead mb-0">Busca las canciones más populares de tu artista favorito usando la API de Shazam.</p>
+  </header>
+
+  <main class="container my-4">
+    <div class="input-group mb-4">
+      <input type="text" id="artistInput" class="form-control" placeholder="Escribe el nombre del artista..." aria-label="Nombre del artista" />
+      <button id="searchBtn" class="btn btn-primary" aria-label="Buscar canciones">Buscar</button>
+    </div>
+    <div id="helpMsg" class="text-center text-muted mb-3">
+      Ejemplo: <span class="fw-bold">Bad Bunny</span>, <span class="fw-bold">Taylor Swift</span>, <span class="fw-bold">Shakira</span>
+    </div>
+    <div id="tracksContainer" class="row gy-4 justify-content-center"></div>
+  </main>
+
+  <footer class="text-center py-4 text-muted">
+    Isaac Flores — Agosto 2025<br>
+    Datos obtenidos de <a href="https://rapidapi.com/apidojo/api/shazam" target="_blank" rel="noopener">Shazam API</a>.<br>
+    Proyecto educativo. <a href="https://www.shazam.com/" target="_blank" rel="noopener">Ir a Shazam</a>
+  </footer>
+
+  <script src="./public/js/bootstrap.bundle.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
