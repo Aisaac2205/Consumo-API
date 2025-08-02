@@ -71,4 +71,5 @@ Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo [`LICENSE`
 
 ---
 
-> **Nota:** Este proyecto es solo para fines educativos y de demostración. Los datos provienen de la API pública de
+> **Nota:** Este proyecto es solo para fines educativos y de demostración. Los datos provienen de la API pública.
+> 
