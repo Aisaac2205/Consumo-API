@@ -1,4 +1,4 @@
-const apiKey = "0eddb09e10msh80019c4c75cf40bp165ff3jsn19cc472c1ad7";
+const apiKey = "";
 const apiHost = "shazam.p.rapidapi.com";
 
 const searchBtn = document.getElementById("searchBtn");
@@ -56,4 +56,5 @@ artistInput.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
     buscarCanciones();
   }
+
 });
